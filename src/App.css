@@ -1,4 +1,235 @@
-.App {
+ body{
+  background-color: #FAFAFA;
+}
+.mobile{
+  margin-left: 20%;
+}
+.loginpage__main{
+  
+  display:flex;
+  margin: 15px;
+  margin-bottom: 25px;
+  
+  /* border: 1px solid; */
+} 
+.loginpage__logo{
+  width: 115px;
+  margin-top: 5px;
+  /* border: 1px solid; */
+}
+.loginpage_rightcomponent{
+  /* height:200px; */
+  width:150 ;
+  border: 1px solid #DBDBDB;
+  /* margin-left: 30%; */
+  margin-top: 25px;
+  padding: 15px;
+  text-align: center;
+  /* border: 1px solid; */
+}
+.loginpage_signup{
+  border: 1px solid #DBDBDB;
+  margin-top: 2px;
+  padding: 10px;
+  font-size: 10px;
+  height: 15px;
+  text-align: center;
+  /* border: 1px solid; */
+}
+.loginpage_app{
+  margin-top: 2px;
+  padding: 10px;
+  font-size: 13px;
+  height: 15px;
+  text-align: center;
+  /* display: flex; */
+}
+.apple{
+  width: 77px;
+  margin-top: 5px;
+}
+.loginpage__signin{
+  padding: 12px;
+  margin-top: 5px;
+}
+.loginpage__text{
+  width: 158px;
+  height: 20px;
+  margin: 3px;
+  font-size: 8px;
+  border: 1px solid #DBDBDB;
+  background-color:#FAFAFA ;
+  padding-left: 10PX;
+  border-radius: 5px;
+}
+.login__button{
+  width: 174px;
+  height: 20px;
+  font-size: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 5px;
+  border: 1px solid #0395F6;
+  background-color: #0395F6;
+  color: #DBDBDB;
+}
+.login__ordiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.login__dividor{
+  width:65px;
+  height: 0px;
+  margin-top: 5px;
+  border: 0.5px solid #DBDBDB;
+}
+.login__or{
+  margin: 0px 10px;
+  font-size: 8px;
+font-weight: bold;
+color: #8E8E8E;
+}
+.login__fb{
+   color: #395185;
+   font-size: 9px;
+   font-weight: bold;
+  
+}
+.fb__img{
+  margin-top: 5px;
+}
+.login__forgot{
+  color: rgba(var(--fe0, 0, 55, 107),1);
+  font-size: 8px;
+  line-height: 14px;
+  margin-top: 8px;
+  text-align: center;
+}
+.footerPara{
+  
+  margin-left: 20%;
+  font-size: 8px;
+  color: #395185;
+  
+}
+.copyright{
+  margin-top: 5px;
+  margin-left: 40%;
+  font-size: 8px;
+  color: #395185;
+}
+a{
+  text-decoration: none;
+  color: #8E8E8E;
+}
+
+
+/* sign up form css starts */
+
+.signup_maindiv{
+  display: flex;
+  justify-content: center;
+}
+.signup_main{
+  border: 1px solid #DBDBDB;
+  width:180px ;
+  /* margin-left: 20%; */
+  margin-top: 5px;
+  padding: 15px;
+  
+  text-align: center;
+}
+.signup_firsttext{
+  font-size: 8px;
+}
+.signup_info{
+  font-size: 8px;
+}
+.loginpage__loginUpDiv{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.signuppage_app{
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 13px;
+  height: 15px;
+  text-align: center;
+}
+.loginpage_login{
+  border: 1px solid #DBDBDB;
+  margin-top: 2px;
+  width: 194px;
+  padding: 8px;
+  font-size: 10px;
+  height: 15px;
+  
+}
+.signup_footerPara{
+  margin-top: 20px;
+  font-size: 7px;
+  color: #395185;
+  padding: 10px;
+  
+}
+
+
+
+
+
+
+
+/*  forgot passward css */
+.forgot_maindiv{
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  
+}
+.forgot_trouble{
+  font-size: 13px;
+  font-weight: bold;
+  color: #395185;
+}
+.cant_reset a{
+  font-size: 10px;
+}
+.newaccount a{
+  font-size: 11px;
+  color: black;
+}
+.backtologin_div{
+
+}
+.backtologin{
+  border: 1px solid #DBDBDB;
+  width: 210px;
+  text-align: center;
+  height: 30px;
+}
+.backtologin a{
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +266,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
