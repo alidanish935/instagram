@@ -1,0 +1,21 @@
+.post__container{
+    margin-top: 10px;
+    margin-left: 245px;
+  
+   width: 410px;
+   
+}
+
+.post__container1{
+    padding: 6px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+}
+.post__username{
+    padding-left: 10px;
+}
+.dot_img{
+    margin-left: 242px;
+    width: 30px;
+    height: 26px;
+}

@@ -1,0 +1,20 @@
+/* .statusbar__maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+.statusbar__container{
+    
+    margin-left: 245px;
+    margin-top: 25px;
+    height: 74px;
+    background: white;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    /* padding: 6px; */
+    align-items: center;
+}
+.status{
+    margin: 6px;
+}

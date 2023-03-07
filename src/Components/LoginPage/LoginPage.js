@@ -1,4 +1,4 @@
-import { Grid } from '@mui/material'
+// import { Grid } from '@mui/material'
 import mobview from '../../images/mobview.svg'
 import logo from '../../images/logo.png'
 import fb from '../../images/fb.png'
@@ -30,6 +30,7 @@ const LoginPage = () => {
                         <div className='mobile'>
                             <img src={mobview} width='250px' />
                         </div>
+                        {/* <button ><Link to='/Navbar'>Click</Link></button> */}
                         <div>
                             
                             <div className='loginpage_rightcomponent'>
@@ -37,7 +38,7 @@ const LoginPage = () => {
                                   <div className='loginPage__signin'>
                                     <input  type='text'className='loginpage__text' placeholder='username'/><br/>
                                     <input className='loginpage__text' type='password'  placeholder='password'/><br/>
-                                    <button className='login__button'>Sign In</button><br></br>
+                                    <button className='login__button'><Link to='/Home'> Sign In</Link></button><br></br>
                                     <button onClick={() => loginFn()} className="login-input-btn">Sign in with Google 🚀 </button>
                                  </div>
                                  <div className='login__ordiv '>
